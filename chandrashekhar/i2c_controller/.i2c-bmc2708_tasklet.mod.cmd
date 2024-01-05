@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.mod := printf '%s\n'   i2c-bmc2708_tasklet.o | awk '!x[$$0]++ { print("/home/pi/chandrashekhar/i2c_controller/"$$0) }' > /home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.mod

@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.ko /home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.o /home/pi/chandrashekhar/i2c_controller/i2c-bmc2708_tasklet.mod.o;  true

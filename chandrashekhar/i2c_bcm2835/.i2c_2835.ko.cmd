@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.ko /home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.o /home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.mod.o;  true

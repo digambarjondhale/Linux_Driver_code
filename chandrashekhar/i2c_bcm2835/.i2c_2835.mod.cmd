@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.mod := printf '%s\n'   i2c_2835.o | awk '!x[$$0]++ { print("/home/pi/chandrashekhar/i2c_bcm2835/"$$0) }' > /home/pi/chandrashekhar/i2c_bcm2835/i2c_2835.mod

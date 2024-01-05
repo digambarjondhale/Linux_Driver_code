@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/custom_rtc/rtc_ds1307_custom.mod := printf '%s\n'   rtc_ds1307_custom.o | awk '!x[$$0]++ { print("/home/pi/chandrashekhar/custom_rtc/"$$0) }' > /home/pi/chandrashekhar/custom_rtc/rtc_ds1307_custom.mod

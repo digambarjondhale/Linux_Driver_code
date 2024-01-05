@@ -1,0 +1,1 @@
+cmd_/home/pi/chandrashekhar/custom_rtc/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/chandrashekhar/custom_rtc/modules.order | scripts/mod/modpost -m -a    -o /home/pi/chandrashekhar/custom_rtc/Module.symvers -e -i Module.symvers -T - 
