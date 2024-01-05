@@ -1,0 +1,59 @@
+Problem Statement:
+	Write basic device driver for RTC which must be able to update and read date and time
+
+Source file path:
+
+	Driver file : Advanced_Linux_Training/assignment_1/Driver/src/
+	Test Application : Advanced_Linux_Training/assignment_1/App/src/
+
+Source file name:
+
+	Driver file : chr_driver.c
+	Test application : main.c
+
+Build Program:
+
+	Driver file : 	make
+			(load the module to kernel space using below command)
+			sudo insmod chr_driver.ko
+			(unload the module to kernel space using below command)
+			sudo rmmod chr_driver
+
+	Test application : make
+			   OR
+			   gcc main.c -o main
+
+Run Program:
+
+	sudo ./main
+
+Sample Inputs and Outputs:
+
+		Ready to perform operations on character driver..!
+
+		Enter the operation you want to perform..
+		1.WRITE
+		2.READ
+		3.EXIT
+		1
+		Enter the data to write into driver :
+		Device driver
+		Data written..!
+
+		Enter the operation you want to perform..
+		1.WRITE
+		2.READ
+		3.EXIT
+		2
+		Your Data :
+		Device driver
+
+		Enter the operation you want to perform..
+		1.WRITE
+		2.READ
+		3.EXIT
+		3
+
+Brief Description:
+
+	These program demonstrates a character driver with basic operations like read and write.

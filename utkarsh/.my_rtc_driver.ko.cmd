@@ -1,0 +1,1 @@
+cmd_/home/pi/utkarsh/my_rtc_driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/utkarsh/my_rtc_driver.ko /home/pi/utkarsh/my_rtc_driver.o /home/pi/utkarsh/my_rtc_driver.mod.o;  true

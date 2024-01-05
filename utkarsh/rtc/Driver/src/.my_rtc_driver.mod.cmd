@@ -1,0 +1,1 @@
+cmd_/home/pi/utkarsh/rtc/Driver/src/my_rtc_driver.mod := printf '%s\n'   my_rtc_driver.o | awk '!x[$$0]++ { print("/home/pi/utkarsh/rtc/Driver/src/"$$0) }' > /home/pi/utkarsh/rtc/Driver/src/my_rtc_driver.mod

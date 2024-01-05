@@ -1,0 +1,1 @@
+cmd_/home/pi/utkarsh/i2c_bcm2835/updates/upd1/i2c_wq.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/utkarsh/i2c_bcm2835/updates/upd1/i2c_wq.ko /home/pi/utkarsh/i2c_bcm2835/updates/upd1/i2c_wq.o /home/pi/utkarsh/i2c_bcm2835/updates/upd1/i2c_wq.mod.o;  true

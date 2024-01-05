@@ -1,0 +1,1 @@
+/home/pi/utkarsh/i2c_bcm2835/updates/upd1/i2c_wq.o

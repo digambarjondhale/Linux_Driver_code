@@ -1,0 +1,1 @@
+cmd_/home/pi/utkarsh/i2c_bcm2835/final/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/utkarsh/i2c_bcm2835/final/modules.order | scripts/mod/modpost -m -a    -o /home/pi/utkarsh/i2c_bcm2835/final/Module.symvers -e -i Module.symvers -T - 

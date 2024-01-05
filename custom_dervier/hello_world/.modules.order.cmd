@@ -1,0 +1,1 @@
+cmd_/home/pi/digambar/ldd/custom_dervier/hello_world/modules.order := {   echo /home/pi/digambar/ldd/custom_dervier/hello_world/hello.ko; :; } > /home/pi/digambar/ldd/custom_dervier/hello_world/modules.order
